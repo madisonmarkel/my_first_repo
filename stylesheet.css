@@ -1,3 +1,66 @@
 body {
-    background: #eee;
+    background: #efeee7;
+    color:#333333;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*SUPPORT STYLES*/
+    .text_center {
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    a {
+        color:#d21034;
+    }
+/*LAYOUT
+    .site_width {
+        max-width: 200rem;
+    }*/
+/* HEADER*/
+    .header {
+        background: #333333;
+        color: #eee;
+        font-size: 28px;
+        padding: 1em;
+    }
+/*ABOUT*/
+    .main_content {
+        background:#efeee7;
+        float:left;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .main_content h2 {
+        padding: 1em 0 0 1em;
+    }
+    .main_content p {
+        padding: 1em 0 0 1em;
+    }
+    .bio_image {
+        max-width: 10em;
+        float: left;
+        border-radius: 2em;
+        padding: 1em;
+    }
+/*CONTACT*/
+    aside {
+        float: right;
+        width: 30%;
+    }
+    aside h2 {
+        padding: 1em 0 0 1em;
+    }
+/*MEDIA SCREENS*/
+@media screen and (max-width: 767px) {
+    .main_content {
+        width: 90%;
+        padding: 1em;
+    }
+    aside {
+        width: 90%;
+        padding: 1em;
+    }
 }
